@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer signup</title>
+    <link rel="stylesheet" href="css/loginandsignup.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+<body >
+    <div class="img">
+        <a id="imglink" href="index.html"><img src="image/home.jpg" ></a>
+        <p>Home</p>
+    </div> 
+    <div class="signup-background">
+        <div class="loginpage">
+            <h1>Retailer Signup</h1>
+            <input type="text" placeholder="FULLNAME" id="user" required><br><br>
+            <input type="text" placeholder="USERNAME" id="pass"><br><br>
+            <input placeholder="DATE" class="textbox-n" id="pass"type="text" onfocus="(this.type='date')" id="date" required><br><br>
+            <input type="email" placeholder="E-MAIL" id="pass" value="" required><br><br>
+            <script type="text/javascript">
+                var citiesByState = {
+                Karnataka: ["Bagalkot","Ballari","Belagavi ","Bengaluru Rural","Bengaluru Urban","Bidar","Chamarajanagar","Chikballapur"],
+                Maharashtra: ["Ahmednagar","Akola","Aurangabad","Bhandara","Mumbai","Pune","Nagpur","shirdi"],
+                Kerala: ["kochi","Kanpur","kolzhikode","Kannur","Kasaragod","Kollam","Kottayam","Kozhikode","Malappuram","Palakkad","Pathanamthitta"    ],
+                Tamilnadu:[" Ambasamudram","Anamali","Arakandanallur","Arantangi","Aravakurichi","Ariyalur","Arkonam","Arni","Aruppukottai","Attur","Avanashi","Batlagundu","Bhavani","Chengalpattu","Chengam","Chennai","Chidambaram","Chingleput","Coimbatore","Courtallam","Cuddalore","Cumbum","Denkanikoitah","Devakottai","Dharampuram","Dharmapuri","Dindigul","Erode","Gingee","Gobichettipalayam","Gudalur","Gudiyatham","Harur","Hosur","Jayamkondan","Kallkurichi","Kanchipuram","Kangayam","Kanyakumari","Karaikal","Karaikudi","Karur","Keeranur","Kodaikanal","Kodumudi","Kotagiri","Kovilpatti","Krishnagiri","Kulithalai","Kumbakonam","Kuzhithurai","Madurai","Madurantgam","Manamadurai","Manaparai","Mannargudi","Mayiladuthurai","Mayiladuthurai","Mettupalayam","Metturdam","Mudukulathur","Mulanur","Musiri","Nagapattinam","Nagarcoil","Namakkal","Nanguneri","Natham","Neyveli","Nilgiris","Oddanchatram","Omalpur","Ootacamund","Ooty","Orathanad","Palacode","Palani","Palladam","Papanasam","Paramakudi","Pattukottai","Perambalur","Perundurai","Pollachi"]
+                }
+                function makeSubmenu(value) {
+                if(value.length==0) document.getElementById("citySelect").innerHTML = "<option></option>";
+                else {
+                var citiesOptions = "";
+                for(cityId in citiesByState[value]) {
+                citiesOptions+="<option>"+citiesByState[value][cityId]+"</option>";
+                }
+                document.getElementById("citySelect").innerHTML = citiesOptions;
+                }
+                }
+                function displaySelected() { var country = document.getElementById("countrySelect").value;
+                var city = document.getElementById("citySelect").value;
+                alert(country+"\n"+city);
+                }
+                function resetSelection() {
+                document.getElementById("countrySelect").selectedIndex = 0;
+                document.getElementById("citySelect").selectedIndex = 0;
+                }
+                </script>
+                </head>
+                <body onload="resetSelection()">
+                <select id="countrySelect" size="1" onchange="makeSubmenu(this.value)">select the state
+                <option value="" disabled selected>Choose State</option>
+                <option>Karnataka</option>
+                <option>Maharashtra</option>
+                <option>Kerala</option>
+                <option>Tamilnadu</option>
+                </select><br>
+
+                <select id="citySelect" size="1" >
+                <option value="" disabled selected>Choose City</option>
+                <option></option>
+            </select><br>
+            <input type="text" placeholder="MOBILE NUMBER" id="pass" required><br><br>
+            <input type="text" placeholder="ADDRESS" id="pass" value=""><br><br>
+            <input type="email" placeholder="E-MAIL" id="pass" value="" required><br><br>
+            <input type="text" placeholder="E-MAIL" id="pass" value="" required><br><br>
+            <input type="text" placeholder="E-MAIL" id="pass" value="" required><br><br>
+            <input type="button" value="submit" id="submit">
+            <br>
+            <br>
+            <a href="farmer login.html" id="bottom-link"><strong>Already have account login!!</strong></a>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <table>
+            <tr><td><a href="www.linkedin.com" id="l">follow us on linked in</a></td></tr>
+            <tr><td><a href="www.instagram.com" id="l">follow us on instagram</a></td></tr>
+            <tr><td><a href="facebook.com" id="l">follow us on facebook</a></td></tr>
+        </table>
+    </div>
+
+</body>

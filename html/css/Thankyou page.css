@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #00FFC6;
+    
+}
+.thankyou_note{
+    height: 200px;
+    width: 50%;
+    padding: 10% 10% 10% 10% 10%;
+    background:linear-gradient(45deg,#0093AB,#99FFCD,#00FFC6) #0093AB;
+    margin-left: 25%;
+    margin-top: 015%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px;
+    
+}
+.thankyou_note p{
+    margin-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.thankyou_note span{
+    color: blue ;
+}
+.thankyou_note h1{color: #22577E;font-size: 50px; margin-top: 5px;}
+.bottom-container{
+    height: 40%;
+    width: 100;
+    background-color: #333;
+    
+
+}
+.bottom-container table{
+    margin-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+       
+}
+.bottom-container table td{padding-top: 5%;}
+#l{
+    padding: 20px,20px,20px,20px;
+    font-style: none;
+    border: transparent;
+    outline: none;
+    text-decoration: none;
+    color: #56BBF1;
+    font: 20px solid;
+}

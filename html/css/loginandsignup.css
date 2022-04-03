@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.signup-background{
+    width: 40%;
+    height: 75%;
+    background-color: black;
+    text-align:center;
+    border-radius:10px ;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.signup-background h1{
+    color: grey;
+}
+.login-background{
+    width: 40%;
+    height: 50%;
+    background-color: black;
+    text-align:center;
+    border-radius:10px ;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}  
+.loginpage h1{
+    color: grey;
+}
+#user{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    outline: none;    
+    width: 300px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#pass{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    outline: none;
+    width: 300px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+#submit{
+    background: linear-gradient(90deg,#85C88A,#00FFDD,#56BBF1);
+    border: none;
+    border-radius: 10px;
+    color: black;    
+    outline: none;
+    height: 40px;
+    width: 60px;   
+    margin-top: 50px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
+    
+img{
+    width: 40px;
+    color: #85C88A;
+    outline: none;
+    border-radius: 50%;
+    margin: 10px;
+    
+}
+.img{
+    margin: 0;
+    background-color: #333;
+    display: flex;
+}
+p{
+    margin-top: 1.5%;
+}
+.butt{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+select{
+    border-style: none;
+    background: transparent;
+    padding: 1em 2em 1em 2em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    width: 20em;
+    color: grey;
+    text-shadow: black;
+    font-size: large;    
+}
+#bottom-link{
+    margin-top: 20em;
+    color: white;
+    padding: 20px 20px;
+
+}
+.bottom-container{
+    height: 40%;
+    width: 100;
+    background-color: #333;
+    
+
+}
+.bottom-container table{
+    margin-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+       
+}
+.bottom-container table td{
+    padding-top: 5%;}
+#l{
+    padding: 20px,20px,20px,20px;
+    font-style: none;
+    border: transparent;
+    outline: none;
+    text-decoration: none;
+    color: #56BBF1;
+    font: 20px solid;
+}
+
+
+
+
+
+
+
